@@ -110,7 +110,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\app\components\" />
     <Folder Include="Scripts\app\tools\resourcing\" />
     <Folder Include="Scripts\app\tools\utilization\" />
   </ItemGroup>
@@ -134,16 +133,22 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\app\components\tab1\tab1.html" />
+    <Content Include="Scripts\app\components\tab1\tab1.js" />
+    <Content Include="Scripts\app\components\tab2\tab2.html" />
+    <Content Include="Scripts\app\components\tab2\tab2.js" />
     <Content Include="Scripts\app\projects\main.js" />
+    <Content Include="Scripts\app\common.js" />
     <Content Include="Scripts\app\require_config.js" />
-    <Content Include="Scripts\app\startup.js" />
     <Content Include="Scripts\lib\bootstrap.js" />
     <Content Include="Scripts\lib\bootstrap.min.js" />
     <None Include="Scripts\lib\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\lib\domReady.js" />
     <Content Include="Scripts\lib\jquery-1.10.2.js" />
     <Content Include="Scripts\lib\jquery-1.10.2.min.js" />
     <Content Include="Scripts\lib\knockout-3.3.0.js" />
     <Content Include="Scripts\lib\require.js" />
+    <Content Include="Scripts\lib\text.js" />
     <Content Include="Scripts\lib\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
