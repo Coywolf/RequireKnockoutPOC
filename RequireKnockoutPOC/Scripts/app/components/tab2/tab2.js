@@ -1,4 +1,4 @@
-﻿define(['knockout', 'text!./tab2.html'], function (ko, htmlString) {
+﻿define(['knockout', 'text!/Utility/RenderPartial?id=components/tab2'], function (ko, htmlString) {
     function tab2ViewModel(params) {
 
     }

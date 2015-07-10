@@ -112,6 +112,7 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\app\tools\resourcing\" />
     <Folder Include="Scripts\app\tools\utilization\" />
+    <Folder Include="Views\Utility\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Controllers\Tools\ResourcingController.cs" />
     <Compile Include="Controllers\ToolsController.cs" />
     <Compile Include="Controllers\Tools\UtilizationController.cs" />
+    <Compile Include="Controllers\UtilityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -166,6 +168,7 @@
     <Content Include="Views\Tools\Index.cshtml" />
     <Content Include="Views\Tools\Utilization.cshtml" />
     <Content Include="Views\Tools\Resourcing.cshtml" />
+    <Content Include="Views\Shared\components\tab2.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -193,7 +196,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54399</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54399/</IISUrl>
+          <IISUrl>http://localhost:54398/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
