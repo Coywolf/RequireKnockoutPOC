@@ -135,6 +135,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\app\componentLoader.js" />
+    <Content Include="Scripts\app\components\listbutton\listbutton.html" />
+    <Content Include="Scripts\app\components\listbutton\listbutton.js" />
     <Content Include="Scripts\app\components\tab1\tab1.html" />
     <Content Include="Scripts\app\components\tab1\tab1.js" />
     <Content Include="Scripts\app\components\tab2\tab2.html" />

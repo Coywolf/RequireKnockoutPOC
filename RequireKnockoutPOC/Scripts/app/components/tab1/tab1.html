@@ -1,1 +1,6 @@
-﻿<h2>tab1</h2>
+﻿<div data-bind="template: {afterRender: afterRender}">
+    <h2>
+        <span data-toggle="tooltip" title="Using a bootstrap tooltip!">tab1</span>
+    </h2>
+    <div data-bind="component: 'listbutton'"></div>
+</div>
